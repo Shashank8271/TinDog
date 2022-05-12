@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 4.5rem;
+  color: white;
+}
+
+.linkname {
+  font-size: 1rem;
+  color: white;
+}
+
+.linkname:hover {
+  color: grey;
+  transform: scale(1.2);
+}
+
+
+
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.head-line {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 4rem;
+  color: white;
+  padding: 3% 7%;
+}
+
+.first-page {
+  padding: 1% 15% 6.5% 15%;
+}
+
+.but-on {
+  padding: 2% 5%;
+}
+
+.rot {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 150px;
+  left: 700px;
+  width: 260px;
+}
+@media(max-width: 600px) {
+  #title {
+    text-align: center;
+  }
+
+  .rot {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* second page */
+#features {
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+.sec-page {
+  padding: 20% 10% 20% 10%;
+}
+
+.fas {
+  color: #ef8172;
+  margin: 5% auto 2% auto;
+}
+
+.fas:hover {
+  /* transfrom feature */
+  transform: scale(1.2);
+  transition-delay: 1s;
+  color: #ff4c68;
+}
+
+.text {
+  color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.testimonial-text {
+  color: white;
+  margin: 2% 23% 1% 23%;
+  font-family: "Montserrat";
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 1% 17% 3% 17%;
+}
+
+.dog-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.dog-text {
+  color: white;
+}
+
+.brnd-img {
+  width: 50%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+h2 {
+  font-family: Montserrat;
+}
+
+.card {
+  padding: 2% 3%;
+}
+
+/* footer */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.foot-txt {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 5% 21% 3% 21%;
+}
+
+.social-links {
+  padding-top: 15%;
+}
+
+.link {
+  margin: 1%;
+  color: black;
+}
+
+.link:hover {
+  color: grey;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+
+.copyright {
+  color: grey
+}
